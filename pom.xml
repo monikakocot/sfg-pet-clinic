@@ -49,8 +49,8 @@
 </build>
 
 	<scm>
-		<developerConnection>scm:git:ssh://git@github.com:monikakocot/sfg-pet-clinic.git</developerConnection>
-		<!--<url>https://github.com/monikakocot/sfg-pet-clinic.git</url>-->
+		<!--<developerConnection>scm:git:ssh://git@github.com:monikakocot/sfg-pet-clinic.git</developerConnection>-->
+		<url>https://github.com/monikakocot/sfg-pet-clinic.git</url>
 		<tag>sfg-pet-clinic-0.0.3</tag>
 	</scm>
 
