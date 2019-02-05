@@ -11,6 +11,13 @@
 
     <artifactId>pet-clinic-data</artifactId>
 
+
+    <!--Związane z późniejszym update do SpringBoot 2.1-->
+    <properties>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+    </properties>
+    <!--Związane z późniejszym update do SpringBoot 2.1-->
+
     <dependencies>
     <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -49,9 +56,11 @@
                         <goals>
                             <goal>repackage</goal>
                         </goals>
-                        <configuration>
-                            <skip>true</skip>
-                        </configuration>
+                        <!--Związane z późniejszym update do SpringBoot 2.1-->
+                        <!--<configuration>-->
+                            <!--<skip>true</skip>-->
+                        <!--</configuration>-->
+                        <!--Związane z późniejszym update do SpringBoot 2.1-->
                     </execution>
                 </executions>
             </plugin>
