@@ -44,6 +44,7 @@
 
 	<scm>
 		<developerConnection>scm:git:ssh://git@github.com:monikakocot/sfg-pet-clinic.git</developerConnection>
+		<url>https://github.com/monikakocot/sfg-pet-clinic.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
