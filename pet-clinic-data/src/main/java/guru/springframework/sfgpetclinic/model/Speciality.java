@@ -1,8 +1,16 @@
 package guru.springframework.sfgpetclinic.model;
 
+import lombok.*;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 
 @Entity
 @Table(name = "specialties")
@@ -12,11 +20,11 @@ public class Speciality extends BaseEntity {
     private String description;
 
     //GETTERS AND SETTERS
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
+//    public String getDescription() {
+//    return description;
+//}
+//
+//    public void setDescription(String description) {
+//        this.description = description;
+//    }
 }

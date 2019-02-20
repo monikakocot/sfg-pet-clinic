@@ -56,6 +56,7 @@ public class OwnerSDJpaService implements OwnerService {
 
     @Override
     public Owner save(Owner object) {
+        System.out.println("YES spring data JPA profile is active !! :) ");
         return ownerRepository.save(object);
     }
 

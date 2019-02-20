@@ -46,6 +46,13 @@
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
         </dependency>
+        <!--PROJECT LOMBOK-->
+        <!--<dependency>-->
+            <!--<groupId>org.projectlombok</groupId>-->
+            <!--<artifactId>lombok</artifactId>-->
+            <!--<optional>true</optional>-->
+        <!--</dependency>-->
+        <!--PROJECT LOMBOK-->
 
         <!-- webjars -->
         <dependency>
