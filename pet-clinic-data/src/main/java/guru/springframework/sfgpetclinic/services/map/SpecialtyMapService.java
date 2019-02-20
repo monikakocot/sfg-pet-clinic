@@ -4,11 +4,13 @@ import com.sun.xml.internal.bind.v2.model.core.ID;
 import guru.springframework.sfgpetclinic.model.Speciality;
 
 import guru.springframework.sfgpetclinic.services.SpecialtyService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default","map"})
 public class SpecialtyMapService extends  AbstractMapService<Speciality,Long> implements SpecialtyService {
 
     @Override
