@@ -20,6 +20,11 @@ public class PetType extends BaseEntity{
     @Column(name = "name")
     private String name;
 
+    @Override
+    public String toString() {
+        return name;
+    }
+
     //GETTERS AND SETTERS
 //    public String getName() {
 //        return name;
